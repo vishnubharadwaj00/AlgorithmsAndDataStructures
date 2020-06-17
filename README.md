@@ -3,4 +3,4 @@ A repository of the all the coding I've done to learn (and brush up on) the fund
 
 Sources for the problems (constantly updated):
 * ![Leetcode](https://leetcode.com/)
-* [Algorithms Specialization offered by Stanford on Coursera] (https://www.coursera.org/specializations/algorithms/)
+* [Algorithms Specialization offered by Stanford on Coursera](https://www.coursera.org/specializations/algorithms)
