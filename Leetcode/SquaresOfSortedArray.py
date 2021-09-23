@@ -17,7 +17,8 @@ def sortedSquares(nums):
 			right -=1
 			right_sq = nums[right]**2
 		write-=1
-	print(output)
+	return output
 		
 nums = [-4,-4,-3]
-sortedSquares(nums)
+x = sortedSquares(nums)
+print(x)
