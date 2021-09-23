@@ -1,13 +1,10 @@
-digits=[9,9,9]
 def plusone(digits):
-    n=len(digits)
-    num=0
-    for i in range(0,n):
-        num+=digits[i]*pow(10,n-i-1)
-        print(num)
-    num+=1
-    output=[int(d) for d in str(num)]
-    return output
+	for i in reversed(range(1,len(digits))):
+		if(digits[i]!=9):
+			digits[i]+=1
+			return digits
+		digits[i]=0
+	digits.insert(0,1)
 
-x=plusone(digits)
-print(x)
+a = plusone([0])
+print(a)
